@@ -1,4 +1,10 @@
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     /* background-image: url(assets/bg-mobile.jpg);
     background-repeat: no-repeat;
@@ -6,13 +12,10 @@ body {
     background-size: cover; */
 
     /* background: color image repeat position */
-    background: url(assets/bg-mobile.jpg) no-repeat top center/cover;
+    background: url(/assets/bg-mobile.jpg) no-repeat top center/cover;
 }
 
-#container {
-    width: 360px;
-    height: 712px;
-    border: 1px solid red;
-    margin-right: auto;
-    margin-left: auto;
+body * {
+    font-family: "Inter", sans-serif;
+    color: #fff;
 }
