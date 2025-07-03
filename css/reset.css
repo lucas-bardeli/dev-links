@@ -12,10 +12,10 @@ body {
     background-size: cover; */
 
     /* background: color image repeat position */
-    background: url(../assets/bg-mobile.jpg) no-repeat top center/cover;
+    background: var(--bg-url) no-repeat top center/cover;
 }
 
 body * {
     font-family: "Inter", sans-serif;
-    color: #fff;
+    color: var(--text-color);
 }
